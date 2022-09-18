@@ -1,0 +1,61 @@
+/* Global styles */
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+/* Typography */
+
+h1 {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: 41px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Layout */
+
+header {
+    background-color: #370764;
+    color: whitesmoke;
+    text-align: center;
+    padding:20px ;
+}
+
+main {
+    padding: 0 30px;
+ 
+}
+
+footer {
+    background-color: #370764;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 85%;
+    height: 90%;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.pictures {
+    display:flex;
+}
+
+.citat {
+    border-left: rgb(70, 68, 68) solid ;
+    padding-left: 5px;
+    font-style: italic;
+}
+
+a {
+    color:whitesmoke;
+}
